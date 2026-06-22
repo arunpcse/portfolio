@@ -1,0 +1,23 @@
+.character {
+  width: 320px;
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  z-index: 20;
+  animation: floatCharacter 3s ease-in-out infinite;
+  filter: drop-shadow(0 0 30px #38bdf8);
+}
+
+@keyframes floatCharacter {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-25px) rotate(2deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}

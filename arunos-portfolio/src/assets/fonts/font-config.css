@@ -1,0 +1,19 @@
+/* Drop your .woff2 or .ttf font files into this folder, 
+  then link them here to keep your typography perfectly locked in.
+*/
+
+@font-face {
+  font-family: 'Geist';
+  src: local('Geist Regular'), local('Geist-Regular');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: local('Geist Bold'), local('Geist-Bold');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
